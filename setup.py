@@ -35,7 +35,7 @@ setup(
     author_email='python-package@kerynknight.com',
     license="BSD License",
     keywords="django",
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
+    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst'), encoding='utf-8').read(),
     url='https://github.com/kezabelle/django-haystackbrowser/tree/master',
     packages=PACKAGES,
     install_requires=REQUIREMENTS,
